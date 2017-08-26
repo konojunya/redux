@@ -1,7 +1,13 @@
 import React from "react";
+import { Provider } from 'react-redux';
+import { store } from '../store/configureStore';
+
+import Home from '../containers/Home';
 
 const App = () => (
-  <h1>Hello World</h1>
+  <Provider store={store}>
+    <Home />
+  </Provider>
 )
 
 export default App;

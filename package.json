@@ -1,0 +1,34 @@
+{
+  "name": "redux",
+  "version": "1.0.0",
+  "description": "redux",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^3.5.5"
+  },
+  "scripts": {
+    "prebuild": "rm -rf dist/",
+    "build": "webpack --color --progress",
+    "build:watch": "npm run build -- --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konojunya/redux.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/konojunya/redux/issues"
+  },
+  "homepage": "https://github.com/konojunya/redux#readme"
+}
